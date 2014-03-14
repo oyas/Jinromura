@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <string name="app_name">人狼村</string>
+    <string name="action_settings">役職設定</string>
+    <string name="action_settings_back">戻る</string>
+    <string name="action_settings_finish">終了</string>
+    
+    <string name="edit_name">役職名</string>
+    <string name="edit_explain">説明文</string>
+    <string name="edit_win">勝利条件</string>
+    <string name="edit_win_mura">村人陣営の勝利</string>
+    <string name="edit_win_jinro">人狼陣営の勝利</string>
+    <string name="edit_skill">能力</string>
+    <string name="edit_skill_mura">能力なし</string>
+    <string name="edit_skill_jinro">夜時間に一人食べれる(人狼の能力)</string>
+    <string name="edit_skill_uranai">夜時間に一人占える(占い師の能力)</string>
+    <string name="edit_skill_kariudo">夜時間に一人守れる(狩人の能力)</string>
+    <string name="edit_skill_reibai">処刑された人を占える(霊媒師の能力)</string>
+    <string name="edit_uranai">占い結果</string>
+    <string name="edit_uranai_mura">人狼ではありません</string>
+    <string name="edit_uranai_jinro">人狼です</string>
+    <string name="edit_uranai_uranai">占い師です</string>
+    <string name="edit_other">その他</string>
+    <string name="edit_other_youko_uranai">占いされると死んでしまう(妖狐の能力)</string>
+    <string name="edit_other_youko_jinro">人狼に襲われても死なない(妖狐の能力)</string>
+    <string name="edit_finish">終了してタイトル画面に戻る</string>
+    
+    <string name="regist_name">参加者の名前を登録してください</string>
+    <string name="regist_number">参加人数：</string>
+    <string name="regist_up">▲</string>
+    <string name="regist_down">▼</string>
+    <string name="regist_next">次へ</string>
+    
+    <string name="regist_role">役職を選んでください</string>
+    <string name="regist_waitnum">残り人数：</string>
+    
+    <string name="game_start">それでは、ゲームを開始します。</string>
+    <string name="game_start_button">ゲーム開始</string>
+    
+    <string name="game_evening">もうすぐ夜になります。\n私語は謹んで自分の行動を選択してください。</string>
+    <string name="game_evening_next">夜の行動へ移る</string>
+    
+    <string name="game_youare_1">あなたは、</string>
+    <string name="game_youare_2">さんですか？</string>
+    <string name="game_youare_gamemaster">ゲームマスター</string>
+    <string name="game_youare_yes">はい</string>
+    
+    <string name="game_night_select">人を選んでください</string>
+    <string name="game_night_utagau">疑う</string>
+    <string name="game_night_osou">襲う</string>
+    <string name="game_night_uranau">占う</string>
+    <string name="game_night_mamoru">護る</string>
+    <string name="game_night_next">次の人へ</string>
+    
+    <string name="game_morning_1">朝になりました。\n\n昨夜の犠牲者は、</string>
+    <string name="game_morning_2">でした。</string>
+    <string name="game_morning_zero">いませんでした。</string>
+    <string name="game_morning_3">昨夜最も疑われていた人物は、</string>
+    <string name="game_morning_next">話し合いを始める</string>
+    
+    <string name="game_day_explain">処刑する人を話し合って決めてください</string>
+    <string name="game_day_next">話し合いを終了する</string>
+    
+    <string name="game_vote_explain">投票により処刑する人を決めます。\n最も疑わしい人を選んでください。</string>
+    <string name="game_vote_1">さん、投票してください。</string>
+    <string name="game_vote_vote">投票する</string>
+    
+    <string name="game_voteresult_1">投票の結果、</string>
+    <string name="game_voteresult_2">さんが処刑されました。</string>
+    <string name="game_voteresult_next">次へ</string>
+
+    <string name="game_ending_finish">ゲーム終了です。</string>
+    <string name="game_ending_next">タイトル画面へ</string>
+    
+</resources>

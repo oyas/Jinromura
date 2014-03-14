@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/edit_name" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="@string/edit_explain" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_win" />
+	
+	    <RadioGroup android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/RadioGroup_win">
+             
+	        <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_win_mura" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_win_jinro" />
+              
+        </RadioGroup>
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/edit_skill" />
+	    
+		<RadioGroup android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/RadioGroup_skill">
+             
+	    	<RadioButton
+	       	 android:id="@+id/radioButton22"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_skill_mura" />
+	    	
+	    	<RadioButton
+	       	 android:id="@+id/radioButton3"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_skill_jinro" />
+
+	    	<RadioButton
+	       	 android:id="@+id/radioButton4"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_skill_uranai" />
+    
+	    </RadioGroup>
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/edit_uranai" />
+	    
+		<RadioGroup android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/RadioGroup_uranai">
+            
+	    	<RadioButton
+	       	 android:id="@+id/radioButton5"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_uranai_mura" />
+		    
+	    	<RadioButton
+	       	 android:id="@+id/radioButton6"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_uranai_jinro" />
+
+	    	<RadioButton
+	       	 android:id="@+id/radioButton7"
+	       	 android:layout_width="wrap_content"
+	       	 android:layout_height="wrap_content"
+	       	 android:text="@string/edit_uranai_uranai" />
+    
+	    </RadioGroup>
+		
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="TextView" />
+
+		<CheckBox
+		    android:id="@+id/checkBox1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="CheckBox" />
+	    
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_finish" />
+
+    </LinearLayout>
+    
+
+</ScrollView>

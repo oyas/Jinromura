@@ -1,0 +1,11 @@
+Jinromura
+
+Androidアプリです。人狼です。
+個人で勝手に楽しむ用に作りました。
+
+Eclipseで開発してます。
+
+パッケージは以下に置いておきます。
+<https://www.dropbox.com/s/jeej4satixtc1dv/Jinromura.apk>
+
+

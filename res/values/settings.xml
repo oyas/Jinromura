@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 設定 --> 
+    
+    <integer name="INITIAL_NUM">4</integer>	<!-- 最低参加人数 -->
+    <integer name="INITIAL_TIMER">120</integer>	<!-- 昼時間の話し合いの時間(秒) -->
+    
+</resources>
