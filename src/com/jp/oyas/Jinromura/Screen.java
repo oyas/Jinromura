@@ -428,7 +428,6 @@ class Screen_game_morning extends Screen_super {
 			}
 		}
 		if( mura_Target != -1 ){
-			boss.globals.players.get(mura_Target).alive = false;
 			((TextView)boss.findViewById(R.id.target_mura)).setText( boss.globals.players.get(mura_Target).name );
 		}else{
 			((TextView)boss.findViewById(R.id.target_mura)).setText( "" );
